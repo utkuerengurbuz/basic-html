@@ -34,11 +34,13 @@
 	</style>
 </head>
 <body>
-  <div id="baslik">
-	<header>
-		<h1 > <em>Gürbüz Ticaret</em></h1>
-	</header>
-  </div>
+	<div id="baslik">
+		<header>
+			<h1>
+				<em>Gürbüz Ticaret</em>
+			</h1>
+		</header>
+	</div>
 	<nav id="ana_menü">
 		<ul>
 			<li> Giriş </li>
@@ -46,69 +48,105 @@
 			<li> Hakkımızda </li>
 			<li> İletişim </li>
 		</ul>
-</nav>
+	</nav>
+	
 	<form>
 		<table>
 			<tr>
-		<td>   <p>  Adınız :  </p>  </td>
-			<td> <input type="text" name="ad"> </td>
-		</tr>
+				<td>   <p>  Adınız :  </p>  </td>
+				<td> <input type="text" name="ad"> </td>
+			</tr>
 
-	 <tr>   
-		<td> <p>Soyadınız :   </p> </td>
-		<td><input type="text" name="soyad"></td> 
-	</tr> 
-	   
-		<tr> 
-			<td> <p>Telefon Numaranız : </p> </td> 
-			<td> <input type="number" name="telno"> </td>
-		</tr>
-		
-		<tr>    
-			<td>  <p> E-Mail : </p> </td>
-			<td><input type="text" name="mail">  </td>
-		</tr>
-			<tr>   
-				 <td> <p>Doğum Tarihiniz :   </p> </td>
-				 <td><input type="datetime-local"> </td>
-			 </tr>
-				<tr>   
-					<td> <p>Yaşadığınız şehir : </p> </td>
-	<td>    <select name="sehir" >
-		<option value="İstanbul">İstanbul</option>
-		<option value="Ankara"> Ankara</option>
-		<option value="Edirne"> Edirne</option>
-		<option value="SİVASSSS">SİVAASSSS</option>
-	   </select>  </td>
-	</tr>
-	  
-	 
-	   <tr>
-	<td>  <p>Lütfen bir adet cv yükleyiniz  : </p>  </td>
-		<td>  <input type="file" name="Cv">   </td>
-	</tr>
-  
-	<tr>
-		  <td> <p>Lütfen kendinizden bahsedin</p>  </td>
-	   <td>    <textarea rows="5" ></textarea> </td> 
-	 </tr>
-	  
-  <tr> <td>
-	<button>  <a href="mailto:utku.g.gurbuz@gmail.com"> Gönder </a> </button>
-	</td>
-		<td> 
-	<button onclick="document.getElementById('myInput').value=''">
-	Temizle</button></td>
-	
+			<tr>
+				<td>
+					<p>
+						Soyadınız:
+					</p>
+				</td>
+				<td>
+					<input type="text" name="soyad">
+				</td>
+			</tr>
 
-   </tr>
+			<tr>
+				<td>
+					<p>
+						Telefon Numaranız :
+					</p>
+				</td>
+				<td>
+					<input type="number" name="telno">
+				</td>
+			</tr>
 
-				
+			<tr>
+				<td>
+					<p>
+						E-Mail :
+					</p>
+				</td>
+				<td>
+					<input type="text" name="mail">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						Doğum Tarihiniz :
+					</p>
+				</td>
+				<td>
+					<input type="datetime-local">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						Yaşadığınız şehir:
+					</p>
+				</td>
+				<td>
+					<select name="sehir">
+						<option value="İstanbul">İstanbul</option>
+						<option value="Ankara"> Ankara</option>
+						<option value="Edirne"> Edirne</option>
+						<option value="SİVASSSS">SİVAASSSS</option>
+					</select>
+				</td>
+			</tr>
 
 
-  
+			<tr>
+				<td>
+					<p>
+						Lütfen bir adet cv yükleyiniz:
+					</p>
+				</td>
+				<td>
+					<input type="file" name="Cv">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<p>
+						Lütfen kendinizden bahsedin
+					</p>
+				</td>
+				<td>
+					<textarea rows="5"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<button><a href="mailto:utku.g.gurbuz@gmail.com">Gönder</a></button>
+				</td>
+				<td>
+					<button onclick="document.getElementById('myInput').value=''">Temizle</button>
+				</td>
+			</tr>
 		</table>
-
-</form >
-</body> 
+	</form >
+</body>
 </html>
