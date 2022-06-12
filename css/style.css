@@ -1,0 +1,25 @@
+table{
+    border: 3px solid black;
+    margin: auto;
+    width: 500px;
+}
+
+#ana_menü{
+    background-color: lightblue;
+    padding:3px;
+    border: 2px solid gray;
+}
+#ana_menü li {
+    display:inline-block;
+    list-style:none;
+    font:bold 20px calibri;
+    color:white;
+    padding-left:250px;
+}
+
+#baslik{
+    background-color: rgb(112, 2, 255);
+    text-align: center;
+    border: 1px solid black; 
+    font-family:  tahoma;
+} 
