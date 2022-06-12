@@ -107,6 +107,17 @@
 					<textarea rows="5"></textarea>
 				</td>
 			</tr>
+			<tr>
+				<td>
+					<p>
+						Engel Durumu:
+					</p>
+				</td>
+				<td>
+					<input type="checkbox" name="" id="engeldurumu"><br>
+					<textarea name="" id="engelaciklama" style="display:none;"></textarea>
+				</td>
+			</tr>
 
 			<tr>
 				<td>
@@ -118,5 +129,19 @@
 			</tr>
 		</table>
 	</form >
+
+<script>
+	var engelDurumu = document.getElementById("engeldurumu")
+	var engelAciklama = document.getElementById("engelaciklama")
+
+	engelDurumu.addEventListener("click",utku)
+
+
+	function utku(){
+		engelAciklama.style.display="block"
+	}
+</script>
+
+
 </body>
 </html>
